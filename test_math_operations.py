@@ -1,7 +1,7 @@
 # test_math_operations.py
 
 import unittest
-from sigma_calculator_lab2 import (
+from math_operations import (
     calculate_sum,
     calculate_difference,
     calculate_product,
@@ -22,7 +22,7 @@ class TestMathOperations(unittest.TestCase):
 
     def test_division(self):
         self.assertEqual(calculate_division(10, 2), 5)
-
+# 228
     def test_division_by_zero(self):
         with self.assertRaises(ValueError):
             calculate_division(10, 0)

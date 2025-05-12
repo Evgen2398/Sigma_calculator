@@ -1,4 +1,4 @@
-# math_operations.py
+
 
 def calculate_sum(numbers):
     return sum(numbers)
